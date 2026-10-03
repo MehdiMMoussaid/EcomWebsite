@@ -67,7 +67,7 @@ nav {
     height: 100vh;
     overflow: hidden;
     z-index: 98;
-    background-color: rgb(201, 146, 146);
+    background-color: rgba(255, 255, 255, 0.9);
     transition: 0.5s;
 }
 
@@ -772,8 +772,12 @@ img {
 
     #section1, #section1-2, #section2-2 { padding: 60px 20px; }
 
+    .title-container {
+        overflow: hidden;
+    }
     footer ul li a {
         font-size: 14px;
     }
 
+    
 }

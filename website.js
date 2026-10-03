@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function toggleMenu() {
         if (mobileMenu.classList.contains("is-active")) {
-            mobileMenu.style.width = "250px";
+            mobileMenu.style.width = "100%";
         } else {
             mobileMenu.style.width = "0";
         }
