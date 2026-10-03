@@ -485,7 +485,7 @@ nav ul li a {
     background: whitesmoke;
     padding: 16px;
     color: #000000;
-    padding: 15px 30px 15px 30px;
+    padding-left: 15%;
     border-radius: 30px;
     font-size: 16px;
     font-weight: 600;
