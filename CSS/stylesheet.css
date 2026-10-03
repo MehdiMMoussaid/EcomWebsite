@@ -169,7 +169,7 @@ nav ul li a {
 #section2 {
     background-image: url("kobe.jpg");
     background-position-y: 25%;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     min-height: 30vh;
@@ -776,8 +776,11 @@ img {
         overflow: hidden;
     }
     footer ul li a {
-        font-size: 14px;
+        font-size: 2em;
     }
 
+    .promotion-text {
+        font-size: 2em;
+    }
     
 }
