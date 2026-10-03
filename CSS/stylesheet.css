@@ -761,7 +761,7 @@ img {
     #store ul li {
         flex: 0 0 100%;
         min-width: 0;
-        max-width: calc(32% - 5px);
+        max-width: calc(100% - 5px);
     }
 
     .product-box {
@@ -773,7 +773,7 @@ img {
     #section1, #section1-2, #section2-2 { padding: 60px 20px; }
 
     footer ul li a {
-        font-size: 24px;
+        font-size: 14px;
     }
 
 }
