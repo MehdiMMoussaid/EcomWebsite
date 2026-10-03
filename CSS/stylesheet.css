@@ -747,29 +747,22 @@ img {
     #logo {
         display: none;
     }
+
+    #store ul li {
+        flex: 1 1 100%;
+        min-width: 0;
+        max-width: 100%;
+    }
 }
-@media (max-width: 768px) {
-  #store ul li {
-    flex: 1 1 100%;
+
+.product-box {
     min-width: 0;
     max-width: 100%;
-  }
-  .product-box { min-width: 0; }
-
-  #section1, #section1-2, #section2-2 { padding: 60px 20px; }
-
-  #main-title { white-space: normal; text-align: center; font-size: 8vw; }
-
-  .promotion-text { font-size: 1.8rem; }
-  .title-container { flex-direction: column; }
-  .button-promotion-wrapper { padding-right: 0; justify-content: flex-start; }
-
-  #about-title { font-size: 40px; }
-  footer ul li a { font-size: 18px; }
-  #footer-bg-text { font-size: 13vw; }
-  #footer-list { flex-direction: column; align-items: flex-start; }
-  .footer-logo { width: 150px; height: 150px; margin-left: 0; }
 }
+
+#section1, #section1-2, #section2-2 { padding: 60px 20px; }
+
+#main-title { white-space: normal; text-align: center; font-size: 8vw; }
 
 
 
