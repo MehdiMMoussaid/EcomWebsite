@@ -174,7 +174,9 @@ nav ul li a {
     width: 100%;
     min-height: 30vh;
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+    overflow: hidden;
+}
 
 #section3 {
     position:relative;
