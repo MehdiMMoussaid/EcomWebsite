@@ -74,8 +74,10 @@ document.addEventListener("DOMContentLoaded", function() {
     function toggleMenu() {
         if (mobileMenu.classList.contains("is-active")) {
             mobileMenu.style.width = "100%";
+            mobileMenuIcon.style.display = "none";
         } else {
             mobileMenu.style.width = "0";
+            mobileMenuIcon.style.display = "block";
         }
     }
 
@@ -83,6 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function closeMenu() {
         mobileMenu.style.width = "0";
+        mobileMenuIcon.style.display = "block";
     }
 
     const mobileMenuClose = document.querySelector(".mobile-menu-close");
